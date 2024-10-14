@@ -57,4 +57,5 @@ interface RepositoryInterface
     );
 
     public function whereHasMorph($relation, $class);
+
 }

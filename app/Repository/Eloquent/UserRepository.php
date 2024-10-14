@@ -19,4 +19,8 @@ class UserRepository extends Repository implements UserRepositoryInterface
     {
         return $this->model::query()->where('is_active', true);
     }
+
+
+
+
 }
